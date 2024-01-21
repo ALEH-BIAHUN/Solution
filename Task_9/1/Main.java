@@ -19,7 +19,16 @@ public class Main {
         }
 
         //#4 *** Задание особой сложности. Развернуть массив(см конец урока).
-        //todo
-        System.out.println("entering something there");
+        int tmp;
+        for( int i = 0; i < array.length / 2; i++) {
+
+            tmp = array[array.length - i - 1];
+            array[array.length - i - 1] = array[i];
+            array[i] = tmp;
+        }
+        for(int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+        }
+
     }
 }
