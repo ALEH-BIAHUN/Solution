@@ -18,6 +18,8 @@ public class Main {
             System.out.println(array[i]);
         }
 
+        System.out.println("=================================");
+
         //#4 *** Задание особой сложности. Развернуть массив(см конец урока).
         int tmp;
         for( int i = 0; i < array.length / 2; i++) {
@@ -27,7 +29,7 @@ public class Main {
             array[i] = tmp;
         }
         for(int i = 0; i < array.length; i++) {
-            System.out.print(array[i]);
+            System.out.println(array[i]);
         }
 
     }
